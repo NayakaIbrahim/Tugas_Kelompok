@@ -1,2 +1,15 @@
-# Tugas_Kelompok
-Nayaka I (068) &amp; Wildan H (072)
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Progate</title>
+    <link rel="stylesheet" href="stylesheet.css">
+  </head>
+  <body>
+    <header></header>
+    <div class="top-wrapper"></div>
+    <div class="lesson-wrapper"></div>
+    <div class="message-wrapper"></div>
+    <footer></footer>
+  </body>
+</html>
