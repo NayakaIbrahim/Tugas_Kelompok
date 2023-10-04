@@ -45,13 +45,13 @@ display: none;
 <!-- Header + gambar -->
 <header class="bgimg w3-display-container w3-grayscale-min" id="home">
 <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
-<span class="w3-tag">Buka jam 6 puagi sampai 6 malem</span>
+<span class="w3-tag">10.00 - 22.00</span>
 </div>
 <div class="w3-display-middle w3-center">
-<span class="w3-text-brown w3-light-grey" style="font-family: animation game ; font-size:90px">Cafe PINKA<br>"Pinggir Kali"</span>
+<span class="w3-text-brown w3-light-grey" style="font-family: animation game ; font-size:90px">Integral Workspace<br>"UIN vibe"</span>
 </div>
 <div class="w3-display-bottomright w3-center w3-padding-large">
-<span class="w3-text-white">Jalan Buntu No.15 Kota Malang</span>
+<span class="w3-text-white">Jalan Yang Lurus nomor 07 Kota Malang</span>
 </div>
 </header>
 
@@ -62,16 +62,16 @@ grayscale: buat ngewarnai full-->
 <!-- About Container -->
 <div class="w3-container" id="about">
 <div class="w3-content" style="max-width:700px">
-<h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">Tentang CAFE PINKA</span></h5>
-<p>Mulai dirilis pada tanggal 12 September 2023 di Kota Malang yang terletak dekat dengan kali yang mana ketika sore hari akan nampak indahnya senja.</p>
-<p>Semoga dengan adanya Cafe ini bisa menambah jiwa senja kalian bersamaan dengan menikmati menu lezat dari kita.</p>
+<h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">Tentang Kami</span></h5>
+<p>Cafe yang didirikan oleh sekelompok pengusaha sukses misterius</p>
+<p>Dipercaya bahwa Cafe ini didirikan di atas tanah kuburan</p>
 <div class="w3-panel w3-leftbar w3-light-blue">
-<p><i>"Senja ter-indah hanya ada di PINKA" .</i></p>
-<p>MaEl-Risma Eliza</p>
+<p><i>"Kami Tunggu Kunjungan Anda" .</i></p>
+<p>Nayaka Ibrahim x Wildan Hidayat</p>
 </div>
 <img src="https://i.pinimg.com/originals/1f/15/5e/1f155e636d74c41acd4819f0d8c56d2b.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
-<p><strong>Buka:</strong> setiap hari dari jam 6 puagi sampai 6 malem.</p>
-<p><strong>Alamat:</strong> Jalan Buntu No.15 Kota Malang</p>
+<p><strong>Buka:</strong> Buka 12 Jam Setiap Hari</p>
+<p><strong>Alamat:</strong> Jalan Yang Lurus nomor 07 Kota Malang</p>
 </div>
 </div>
 
@@ -79,7 +79,7 @@ grayscale: buat ngewarnai full-->
 <div class="w3-container" id="menu">
 <div class="w3-content" style="max-width:700px">
 
-<h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">Menu Cafe PINKA</span></h5>
+<h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">Yang Kami Tawarkan</span></h5>
 
 <div class="w3-row w3-center w3-card w3-padding">
 <a href="javascript:void(0)" onclick="openMenu(event, 'Makanan');" id="myLink">
@@ -91,50 +91,50 @@ grayscale: buat ngewarnai full-->
 </div>
 
 <div id="Makanan" class="w3-container menu w3-padding-48 w3-card">
-<h5>Roti Canai</h5>
-<p class="w3-text-grey">roti gepeng dengan rasa cenderung asin dan lembut saat digigit</p>
-<p class="w3-text-blue">Rp. 12.000</p><br>
+<h5>Pecel Salmon Antartika</h5>
+<p class="w3-text-grey">Potongan salmon dari benua Antartika yang digoreng lalu disajikan dengan saus kacang manis</p>
+<p class="w3-text-blue">USD. 50.00</p><br>
 
-<h5>Pancake Stroberi</h5>
-<p class="w3-text-grey">pancake dengan tuangan saus coklat dan buah stroberi diatasnya</p>
-<p class="w3-text-blue">Rp. 15.000</p><br>
+<h5>Cowboy Barbeque</h5>
+<p class="w3-text-grey">Sate daging kuda balap yang kalah taruhan milik pemiliknya</p>
+<p class="w3-text-blue">USD. 25.00</p><br>
 
-<h5>Cireng Bumbu Rujak</h5>
-<p class="w3-text-grey">bertekstur kenyal dan rasa gurih dengan cocolan bumbu pedas manis</p>
-<p class="w3-text-blue">Rp. 13.000</p><br>
+<h5>Soto Munkar Nakir</h5>
+<p class="w3-text-grey">Soto dengan kuah pedas, tersedia mulai level 1-3</p>
+<p class="w3-text-blue">USD. 30.00</p><br>
 
-<h5>Nasi Gila</h5>
-<p class="w3-text-grey">perpaduan sosis, telur, cabai merah dan bumbu ala PINKA</p>
-<p class="w3-text-blue">Rp. 23.000</p><br>
+<h5>Lapis Asap Maladewa</h5>
+<p class="w3-text-grey">Kue Lapis yang dibakar dan dibumbui dengan rempah-rempah lokal</p>
+<p class="w3-text-blue">USD. 20.00</p><br>
 
-<h5>Mie Petir</h5>
-<p class="w3-text-grey">dengan topping ayam cincang dan kornet</p>
-<p class="w3-text-blue">Rp. 17.000</p><br>
+<h5>Simple Egg Fried with Palm Oil</h5>
+<p class="w3-text-grey">Telur ceplok</p>
+<p class="w3-text-blue">USD. 75.00</p><br>
 </div>
 
 <div id="Minuman" class="w3-container menu w3-padding-48 w3-card">
-<h5>Coffee Based</h5>
-<p class="w3-text-grey">Ekspresso</p>
-<p class="w3-text-blue">Rp. 7.000</p>
-<p class="w3-text-grey">Americano</p>
-<p class="w3-text-blue">Rp. 10.000</p>
+<h5>Wedhang Uwuh Eropa</h5>
+<p class="w3-text-grey">Rasa Susu Sapi Amerika</p>
+<p class="w3-text-blue">USD. 5.00</p>
+<p class="w3-text-grey">Rasa Ginseng Krakatau</p>
+<p class="w3-text-blue">USD. 10.00</p>
 <br>
 
-<h5>Milk Based</h5>
-<p class="w3-text-grey">Chocolate/Tiramisu/Red Velvet/Matcha/Taro</p>
-<p class="w3-text-blue">Rp. 18.000</p>
+<h5>Nutrisari</h5>
+<p class="w3-text-grey">Jeruk/Mangga/Jambu</p>
+<p class="w3-text-blue">USD. 15.00</p>
 <br>
 
-<h5>Tea</h5>
-<p class="w3-text-grey">Original Tea</p>
-<p class="w3-text-blue">Rp. 9.000</p>
-<p class="w3-text-grey">Lemon Tea/Lychee Tea/Choco Tea</p>
-<p class="w3-text-blue">Rp. 13.000</p>
+<h5>Teh</h5>
+<p class="w3-text-grey">Panas/Hangat</p>
+<p class="w3-text-blue">USD 20.00</p>
+<p class="w3-text-grey">Dingin</p>
+<p class="w3-text-blue">USD. 35.00</p>
 <br>
 
-<h5>Soda</h5>
-<p class="w3-text-grey">Cola/Sprite/Fanta/</p>
-<p class="w3-text-blue">Rp. 20.000</p>
+<h5>Pure Distilled Water</h5>
+<p class="w3-text-grey">Aqua/Le Minerale/Club/Cleo/AQUIN/Q Jami</p>
+<p class="w3-text-blue">USD. 50.00</p>
 </div> 
 <img src="https://i.pinimg.com/originals/8a/f1/96/8af196799d7e799d6361b82f4796f15d.jpg" style="width:100%;max-width:1000px;margin-top:32px;">
 </div>
@@ -143,10 +143,10 @@ grayscale: buat ngewarnai full-->
 <!-- Contact/Area Container -->
 <div class="w3-container" id="where" style="padding-bottom:32px;">
 <div class="w3-content" style="max-width:700px">
-<h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">Tempat Cafe PINKA</span></h5>
-<p>Cafe kita terletak bersebelahan langsung dengan pantai, sehingga bisa melihat sunset yang indah.</p>
+<h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">LOKASI KAMI</span></h5>
+<p>Terletak di ujung jalan sebagai tempat singgah para musafir</p>
 <img src="https://i.pinimg.com/originals/cd/b4/c1/cdb4c1b018160b86a5744d76e3bf6bde.jpg" class="w3-image" style="width:100%">
-<p><span class="w3-tag">INPONE!</span> Kami juga melayani catering berbagai macam masakan untuk acara besar ataupun kecil. Jika kalian membutuhkan bisa mengisi data dibawah ini:</p>
+<p><span class="w3-tag">HEBOH PROMO</span> Kami melayani pemesanan dan reservasi, Nantikan diskon sesuai dengan pesanan kalian:</p>
 <form action="/action_page.php" target="_blank">
 <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Nama" required name="Name"></p>
 <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="Berapa Porsi" required name="People"></p>
