@@ -28,16 +28,16 @@ display: none;
 <div class="w3-top">
 <div class="w3-row w3-padding w3-black">
 <div class="w3-col s3">
-<a href="#" class="w3-button w3-block w3-light-blue">Home</a>
+<a href="#" class="w3-button w3-block w3-light-blue">Beranda</a>
 </div>
 <div class="w3-col s3">
-<a href="#tentang" class="w3-button w3-block w3-blue">Tentang</a>
+<a href="#tentang" class="w3-button w3-block w3-blue">Informasi</a>
 </div>
 <div class="w3-col s3">
 <a href="#menu" class="w3-button w3-block w3-light-blue">Menu</a>
 </div>
 <div class="w3-col s3">
-<a href="#tempat" class="w3-button w3-block w3-blue">Tempat</a>
+<a href="#tempat" class="w3-button w3-block w3-blue">Lokasi</a>
 </div>
 </div>
 </div>
