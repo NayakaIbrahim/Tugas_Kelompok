@@ -1,33 +1,249 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
+  font-family: "Avenir Next", "Lucida Grande", sans-serif;
   margin: 0;
-  font-family: "Lucida Grande";
+}
+
+img {
+  margin-bottom: 5px;
+  margin-top: 5px;
+  margin-left: 2px;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
 }
 
 a {
   text-decoration: none;
 }
 
+.clear {
+  clear: left;
+}
+
+li {
+  list-style: none;
+}
+
 .container {
-  width: 1170px;
-  padding: 0 15px;
-  margin: 0 auto;
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 10px;
+  margin: 0 10x;
+}
+
+.header {
+  background-color: rgb(101, 167, 163);
+  color: #fff;
+  height: 90px;
+}
+
+.header-logo {
+  float: left;
+  font-size: 36px;
+  padding: 20px 40px;
+}
+
+.header-list li a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  /* Menyusun vertikal ke tengah */
+}
+
+.header-list ul {
+  list-style: none;
+  padding: 25px 40px;
+  display: flex;
+}
+
+.header-list li {
+  margin-right: 60px;
 }
 
 .top-wrapper {
-  padding: 180px 0 100px 0;
-  background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+  padding: 200px 0 200px 0;
+  background-image: url(https://i.pinimg.com/originals/2a/04/a3/2a04a3b96ce997a18781fdc5e6796817.jpg);
   background-size: cover;
   color: white;
+  text-align: center;
 }
 
 .top-wrapper h1 {
-  opacity: 0.7;
+  opacity: 2.7;
   font-size: 45px;
   letter-spacing: 5px;
   margin-bottom: 10px;
 }
 
 .top-wrapper p {
-  opacity: 0.7;
+  opacity: 0.9;
   margin-bottom: 3px;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+
+.signup {
+  background-color: #239b76;
+  
+}
+
+.btn {
+  padding: 24 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 13px;
+}
+
+.top-wrapper h2
+{
+  opacity: 1.7;
+  font-size: 10px;
+  letter-spacing: 1px;
+  padding: 20px;
+  
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.gaya-content {
+  max-width: 700px;
+  background-color: #9bcab9; /* Warna latar belakang */
+  padding: 10px 20px; /* Padding untuk memberikan ruang di sekitar teks */
+  border-radius: 25px;
+  color: #000; /* Warna teks hitam */
+  font-family: "Avenir Next";
+  display: inline-block;
+  
+}
+.gaya-container h5 {
+  margin-bottom: 10px
+} 
+
+.gaya-content h3 {
+  font-size: 20px; /* Sesuaikan ukuran font sesuai kebutuhan */
+}
+
+.gaya-content h4 {
+  font-size: 13px; /* Sesuaikan ukuran font sesuai kebutuhan */
+}
+
+.gaya-content p {
+  font-size: 12px; /* Sesuaikan ukuran font sesuai kebutuhan */
+}
+
+.gaya-content i {
+  font-style: italic;
+}
+
+.gaya-panel i {
+  font-style: italic;
+}
+
+/* Tambahkan CSS untuk menu-icon */
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  /* Gantikan property display ke none */
+  display: none;
+}
+
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: white;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.footer {
+  background-color: rgb(202, 224, 223);
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.footer p {
+  color: #5d585f;
+  font-size: 12px;
+}
+
+.footer q {
+  color: rgb(59, 108, 163);
+  font-size: 14px;
 }
